@@ -3,6 +3,7 @@ import home from "../assets/home.png";
 import about from "../assets/about.png";
 import projects from "../assets/projects.png";
 import contact from "../assets/contact.png";
+import '../index.css'
 
 export default function Navbar() {
   return (
