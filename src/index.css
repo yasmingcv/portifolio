@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   min-height: 100vh;
   min-width: 100vw;
   background: linear-gradient(#230528, #5500E9);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
 }
