@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="text-white w-full h-full flex items-center justify-center">
-      <div className="grid grid-cols-2 max-w-7xl items-center justify-around text-right gap-4 px-20">
+      <div className="grid grid-cols-2 max-w-5xl items-center justify-around text-right gap-4 px-20">
         <div className="relative">
           <img
             className="h-96 w-96 object-cover"
@@ -12,8 +12,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-10">
+          <p className="text-lg">
+            Olá, me chamo <span className="font-bold text-lg">Yasmin Gonçalves</span>
+          </p>
           <h1 className="font-bold text-6xl">Desenvolvedora Fullstack</h1>
-          <p>
+          <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
