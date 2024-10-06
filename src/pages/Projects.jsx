@@ -20,6 +20,7 @@ export default function Projects() {
             image={project.image}
             link={project.link}
             description={project.description}
+            slug={project.slug}
           />
         })}
       </div>
