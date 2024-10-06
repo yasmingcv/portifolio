@@ -9,14 +9,17 @@
   font-family: "Montserrat", sans-serif;
 }
 
-html, body {
+html {
   height: 100%;
+  background: linear-gradient(150deg, #230528, #5500E9);
+  background-attachment: fixed; /* Mantém o gradiente fixo */
 }
 
 body {
-  min-height: 100vh;
-  min-width: 100vw;
-  background: linear-gradient(150deg, #230528, #5500E9);
+  min-height: 100vh; /* Garante que o body tenha no mínimo a altura da tela */
+  margin: 0;
+  padding: 0;
+  background: none; /* O gradiente já está no html, então removemos do body */
 }
 
 #root {
@@ -24,6 +27,6 @@ body {
   width: 100%;
 }
 
-.isActive{
+.isActive {
   background-color: black !important;
 }

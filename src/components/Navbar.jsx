@@ -7,7 +7,7 @@ import '../index.css'
 
 export default function Navbar() {
   return (
-    <nav className="h-4/5 w-14 flex flex-col justify-evenly bg-primary rounded-3xl m-7 items-center">
+    <nav className="fixed right-0 h-4/5 top-1/2 transform -translate-y-1/2 w-14 max-h-[500px] flex flex-col justify-evenly bg-primary rounded-3xl m-7 items-center">
       <Link to="/">
         <img
           src={home}

@@ -41,6 +41,26 @@ export default function About() {
             />
           </div>
         </div>
+        <div>
+          <h3 className="font-bold text-2xl mt-5">EXPERIÊNCIA</h3>
+
+          <div className="mt-5 flex flex-wrap gap-10">
+            <CardFormation
+              institution="OKN"
+              course="Estagiária de desenvolvimento web"
+              time="05/2024 - PRESENTE"
+              description="Some quick example text to build on the card title and make up the
+            bulk of the cards content."
+              stacks={[
+                "Typescript",
+                "NodeJS",
+                "Docker",
+                "PostgreSQL",
+                "Javascript"
+              ]}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
