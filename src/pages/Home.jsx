@@ -1,4 +1,4 @@
-import homeImg from "/public/assets/homeimg.png"
+import homeImg from "/assets/homeimg.png"
 
 export default function Home() {
   return (
