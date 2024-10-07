@@ -4,7 +4,7 @@ import CardProject from "../components/CardProject";
 export default function Projects() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("/public/assets/data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((jsonData) => setProjects(jsonData))
       .catch((err) => console.log("Erro ao carregar projetos", err));
