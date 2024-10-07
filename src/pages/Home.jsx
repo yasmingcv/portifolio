@@ -1,3 +1,5 @@
+import homeImg from "/public/assets/homeimg.png"
+
 export default function Home() {
   return (
     <div className="text-white w-full h-full flex items-center justify-center">
@@ -5,7 +7,7 @@ export default function Home() {
         <div>
           <img
             className="h-80 w-auto object-cover max-lg:w-full max-lg:h-auto"
-            src="/public/assets/homeimg.png"
+            src={homeImg}
             alt="Imagem de perfil"
           />
           {/* <div className="border border-solid border-white p-4 absolute left-0 -translate-x-10 top-10 h-96 w-96 z-10 pointer-events-none"></div> */}
