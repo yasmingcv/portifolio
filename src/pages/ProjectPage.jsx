@@ -17,8 +17,8 @@ export default function ProjectPage() {
 
   return (
     <div className="w-full h-full text-white flex flex-col items-center justify-center gap-10">
-      <div className="flex max-w-5xl gap-10">
-        <div className="w-2/5">
+      <div className="flex max-w-5xl gap-10 max-md:flex-col md:w-full">
+        <div className="w-2/5 max-md:w-full">
           <img
             className="w-full rounded-lg"
             src={project.image}
@@ -65,7 +65,7 @@ export default function ProjectPage() {
             </li>
           </ul>
         </div>
-        <div className="w-3/5">
+        <div className="w-3/5 flex flex-col gap-3 max-md:w-full">
           <h3 className="text-6xl font-bold">{project.name}</h3>
           <h3>{project.description}</h3>
         </div>

@@ -36,11 +36,11 @@ export default function Contact() {
   }
   return (
     <div className="text-white flex flex-col items-center w-full h-full gap-24">
-      <h3 className="font-bold text-6xl">Entre em contato</h3>
+      <h3 className="font-bold text-6xl text-center">Entre em contato</h3>
       <form className="flex flex-col gap-6 w-10/12">
-        <div className="flex flex-row gap-3 w-full">
+        <div className="flex flex-row gap-3 w-full max-md:flex-col max-md:gap-6">
           <input
-            className="w-1/2 h-14 rounded-3xl border border-white outline-none bg-transparent p-5"
+            className="w-1/2 h-14 rounded-3xl border border-white outline-none bg-transparent p-5 max-md:w-full"
             type="name"
             placeholder="Nome"
             value={name}
@@ -48,7 +48,7 @@ export default function Contact() {
             name="name"
           />
           <input
-            className="w-1/2 h-14 rounded-3xl border border-white outline-none bg-transparent p-5"
+            className="w-1/2 h-14 rounded-3xl border border-white outline-none bg-transparent p-5 max-md:w-full"
             type="email"
             placeholder="E-mail"
             value={email}
