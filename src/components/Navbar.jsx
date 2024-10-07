@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import home from "../assets/home.png";
-import about from "../assets/about.png";
-import projects from "../assets/projects.png";
-import contact from "../assets/contact.png";
+import home from "../../public/assets/home.png";
+import about from "../../public/assets/about.png";
+import projects from "../../public/assets/projects.png";
+import contact from "../../public/assets/contact.png";
 import '../index.css'
 
 export default function Navbar() {

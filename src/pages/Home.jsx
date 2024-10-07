@@ -5,7 +5,7 @@ export default function Home() {
         <div>
           <img
             className="h-80 w-auto object-cover max-lg:w-full max-lg:h-auto"
-            src="/src/assets/homeimg.png"
+            src="/public/assets/homeimg.png"
             alt="Imagem de perfil"
           />
           {/* <div className="border border-solid border-white p-4 absolute left-0 -translate-x-10 top-10 h-96 w-96 z-10 pointer-events-none"></div> */}

@@ -6,7 +6,7 @@ export default function ProjectPage() {
   const { slug } = useParams();
   const [project, setProject] = useState({});
   useEffect(() => {
-    fetch("/src/assets/data.json")
+    fetch("/public/assets/data.json")
       .then((response) => response.json())
       .then((jsonData) =>
         setProject(jsonData.find((item) => item.slug === slug))

@@ -4,7 +4,7 @@
         "name": "Kalos",
         "description": "Projeto de TCC desenvolvido no SENAI Jandira. Essa plataforma oferece suporte integral a academias e alunos, trazendo a possibilidade de enviar treinos personalizados aos alunos, compra de produtos da academia e postagens da academia.",
         "link": "https://www.linkedin.com/posts/yasmingcv_dev-programming-workout-activity-7141425795578724352-cGIV?utm_source=share&utm_medium=member_desktop",
-        "image": "/src/assets/kalos.png",
+        "image": "/public/assets/kalos.png",
         "stacks": ["JS", "NODE", "MYSQL", "KOTLIN", "AZURE", "GITHUB", "REACT", "CSS"]
     },
     {
@@ -12,7 +12,7 @@
         "name": "Insider E",
         "description": "Challenge do primeiro ano de Engenharia de Software na FIAP, em parceria com a Tech Mahindra, visando aumentar a visibilidade da Fórmula E. A plataforma oferece um Fantasy Game onde os usuários podem prever os resultados das corridas.",
         "link": "https://insider-e.vercel.app/",
-        "image": "/src/assets/insidere-logo.png",
+        "image": "/public/assets/insidere-logo.png",
         "stacks": ["JS", "REACT", "GITHUB", "CSS", "VERCEL"]
     },
     {
@@ -20,7 +20,7 @@
         "name": "LibFind",
         "description": "Site para buscar livros, consultar detalhes e salvar livros favoritos. Com base na API de livros do Google. Esse projeto foi utilizado para aprimorar minhas habilidades no React.",
         "link": "https://libfind.vercel.app",
-        "image": "/src/assets/libfind.png",
+        "image": "/public/assets/libfind.png",
         "stacks": ["JS", "REACT", "CSS"]
     },
     {
@@ -28,7 +28,7 @@
         "name": "WeatherNow",
         "description": "Site para buscar o clima detalhado em qualquer cidade no mundo em tempo real, utilizando a API OpenWeather.",
         "link": "https://weather-now-delta.vercel.app/",
-        "image": "/src/assets/weathernow.png",
+        "image": "/public/assets/weathernow.png",
         "stacks": ["HTML", "CSS", "JS"]
     },
     {
@@ -36,7 +36,7 @@
         "name": "TRVLS",
         "description": "Landing Page desenvolvida para uma empresa de viagens fictícia, visando aumentar a visibilidade e promover a empresa, trazendo novos clientes.",
         "link": "https://yasmingcv.github.io/site-trvls/",
-        "image": "/src/assets/trvls.png",
+        "image": "/public/assets/trvls.png",
         "stacks": ["HTML", "CSS"]
     }
 ]
