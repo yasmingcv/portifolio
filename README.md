@@ -1,6 +1,6 @@
 # Portfólio
 
-Portfólio desenvolvido em React, design e desenvolvido realizado por mim.
+Portfólio desenvolvido em React, design e desenvolvimento realizado por mim.
 
 ### Tecnologias e bibliotecas utilizadas:
 
